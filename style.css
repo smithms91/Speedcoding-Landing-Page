@@ -1,0 +1,129 @@
+
+/* Default / Reset Styles */
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  background-image: url("images/bg2.jpeg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 5px 10px;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+/* Main Content */
+
+.main_content {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.main_content button {
+  padding: 13px 15px;
+  margin-top: 20px;
+  background-color: #111;
+  border: 1px solid #000;
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.main_content h1 {
+  font-size: 3.75em;
+  font-family: "Merriweather", sans-serif;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 150px;
+  left: 25%;
+  background-color: #ffffff90;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.section {
+  width: 25%;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.section p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+/* Social Icons */
+
+.social_icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 2%;
+  bottom: 3%;
+  color: white;
+  font-size: 1.5em;
+}
+
+.social_icons i {
+  margin: 10px 0;
+}
+
+.side_title {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -1%;
+  top: 35%;
+  font-size: 20px;
+  /* letter-spacing: 2px; */
+  font-family: "Open Sans", sans-serif;
+
+}
+
+/* General Styling */
+button, i, .logo, nav ul li {
+  cursor: pointer;
+}
